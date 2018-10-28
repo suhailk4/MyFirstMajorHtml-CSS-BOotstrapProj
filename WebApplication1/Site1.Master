@@ -1,0 +1,479 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+        <title></title>
+    
+       <link href="sheet1.css" rel="stylesheet" />
+
+    <link href="bs/bootstrap.min.css" rel="stylesheet" />
+    <script src="javascrript/jquery-1.11.2.js"></script>
+    <script src="javascrript/bootstrap.min.js"></script>
+   
+    <link href="sheet1.css" rel="stylesheet" />
+    
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+    <form id="form1" runat="server">
+   
+       <nav class="navbar " role="navigation" " style="background-color:#f71553;" id="nav1"> 
+           
+            <div class="container-fluid">
+                <div class="navbar-header" >
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav">
+
+                                    <span class="sr-only"> Toggle Navigation </span>
+                                    <span class="icon-bar"  style="color:#000000;"></span>
+                                    <span class="icon-bar" style="color:#000000;"></span>
+                                    <span class="icon-bar"  style="color:#000000;"></span>
+
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mynav">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav" id="anc">
+                        <li> <a href="#"> Indias Fastest Online Shopping Destination </a></li>
+                    </ul>
+
+                
+                    </div>
+                <div class="navbar-header navbar-right">
+                      <ul class="nav navbar-nav" id="anc1">
+                        <li> <a href="#"> Thanks for Visiting us </a></li>
+                                <li> <a href="#"> Help Center </a></li>
+                                <li> <a href="#"> sell on snapdeal </a></li>
+                               <li> <a href="#"> <span class="glpyhicon glyphicon-phone"></span>Download App</a> </li>
+                    </ul>
+                </div>
+
+               <div class="col-md-12">
+            <div class="col-md-2">
+                   
+                   <div class="navbar-header">
+                   
+                   <img  id="logo1" src="images/logo21.png" style="height:40px; margin-bottom:20px;"/>
+                    </div>
+                </div>
+                   <div class="col-md-6">
+                       <input type="text" name="name" value=" search Products" style="width:400px; margin-top:07px; height:33px;"/> 
+                       <button type="button" class="btn  btn-default" style="color:#ffffff; background-color:#000000;">
+                                                                                <span class="glyphicon glyphicon-search" style="color:#ffffff; background-color:#000000;"></span> Search    </button>
+                   </div>
+
+                       <div class="col-md-4">
+                               <div class=" navbar-header navbar-right">
+                           <ul  class="nav navbar-nav" id="anc2">
+                               <li> <a href="#"> <span class="glyphicon glyphicon-shopping-cart" style="color:yellow; font-size:16px;">  </span>  Cart  </a> </li>
+                               <li class="dropdown" id="drp1">
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" > Sign In  <span class="caret"> </span></a>
+                                   <ul class="dropdown-menu"  id="one">
+                                         <li> <a href="#"  style="color:#ffffff; background-color:#000000;  " > joinin By Google </a></li>
+                                <li> <a href="#"  style="color:#ffffff; background-color:#000000;;" > join By Number </a></li>
+                                         <li> <a href="#"  style="color:#ffffff; background-color:#000000;"> Help Center </a></li>
+                                        <li> <a href="#"  style="color:#ffffff; background-color:#000000;" >  </a></li> 
+                                        <li> <a href="#"  style="color:#ffffff; background-color:#000000;" id="one border-bottom:2px solid white;"> If you're a new user <br /> register </a> </li>  
+                                        
+                                        <li> <a href="#"  style="color:#4f4de1; background-color:#000000; font-size:16px;  font-weight:bolder" id="one "> <button class="btn btn-default" style="background-color:#fbeeee; color:#000000; width:80px;"> Login  </button> </a> </li>
+                                   </ul>
+
+                               </li>
+                           </ul>
+                    
+                    </div> 
+                           </div>
+
+               </div>
+
+            </div>
+              </div>  
+        </nav>
+        
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <div class="container-fluid">
+    
+            <div class="col-md-12" style="margin-top:20px;">
+                 <div class="f1" style="margin-top:20px;">
+                <div class="col-md-1" style="border:1px solid #808080;">
+               
+                </div>
+                </div>
+                <div class="f1">
+                <div class="col-md-2" style="border:1px solid #808080; height:200px;padding:25px; text-align:center;" >
+
+                    <h4> 100% secure Payment</h4>
+                    <p class="paraf" style="margin-top:40px; color:#808080;">All major Debits and credit Cards accepted here   </p>
+
+                     </div>
+                    </div>
+                <div class="f1">
+                <div class="col-md-2"   style="border:1px solid #808080; height:200px;padding:25px; text-align:center;" >
+                 <h4 > Trust Pay</h4>
+                    <p class="paraf" style="margin-top:40px; color:#808080;"> 100% paymnt protection. Easy Return Policy  </p>
+
+                </div>
+                    </div>
+                <div class="f1">
+                <div class="col-md-2"   style="border:1px solid #808080; height:200px;padding:25px; text-align:center;" >
+                    
+                <h4> Help Center</h4>
+                    <p class="paraf" style="margin-top:40px; color:#808080;">Got a Question? Look No Further .Browse our FaQ's here   </p>
+ 
+                </div>
+                </div>
+                <div class="f1">
+                <div class="col-md-2"  style="border:1px solid #808080;; height:200px;padding:25px; text-align:center;" >
+                  <h4>Shop on the Go</h4>
+                    <p class="paraf" style="margin-top:40px; color:#808080;">Download the app and Shop on the go </p>
+
+                    
+                </div>
+                </div>
+                   
+               
+                <div class="f1" >
+                <div class="col-md-2"  style="border:1px solid #808080;; height:200px;padding:25px; text-align:center;" >
+                         <h4> Rate us</h4>
+                  <p class="paraf" style="margin-top:40px; color:#808080;"> Give your Feedback on our app...</p> 
+                </div>
+                    </div>
+
+                <div class="f1">
+                 <div class="col-md-1" style="border:1px solid #808080;">  
+                </div>
+                    </div>
+              
+
+            </div>
+
+
+        <div class="col-md-12" style="margin-top:20px">
+            <div class="col-md-2">
+                <div class="footer2">
+                <h4 style="text-align:center;"> policy</h4>
+
+                <ul>
+                       <li> <a href="#"> Privacy policy</a> </li>
+                       <li> <a href="#">  Terms of Service</a> </li>
+                       <li> <a href="#"> Terms of Use </a> </li>
+                       <li> <a href="#"> Report Abuse </a> </li>
+                       <li> <a href="#">  CRS policy</a> </li>
+
+
+
+                </ul>
+
+            </div>
+            </div>
+            
+             <div class="col-md-2">
+                <div class="footer2">
+                <h4 style="text-align:center;"> About Us</h4>
+
+                     <ul>
+                       <li> <a href="#"> Core Values</a> </li>
+                       <li> <a href="#">  Company</a> </li>
+                       <li> <a href="#"> Careers </a> </li>
+                       <li> <a href="#"> Blog </a> </li>
+                       <li> <a href="#">  Engineering</a> </li>
+
+                    </ul>
+
+            </div>
+            </div>
+             <div class="col-md-2">
+                <div class="footer2">
+                <h4 style="text-align:center;"> SNAPDEAL BUSINESS </h4>
+
+                <ul>
+                       <li> <a href="#"> sell on Snapdeal</a> </li>
+                       <li> <a href="#">  Advertise on snapdeal</a> </li>
+                       <li> <a href="#"> Media Enquires </a> </li>
+                       <li> <a href="#"> Be an Affiliate </a> </li>
+                       <li> <a href="#">  Eid Offers</a> </li>
+
+
+
+                </ul>
+
+            </div>
+                 </div>
+                  <div class="col-md-2">
+                <div class="footer2">
+                <h4 style="text-align:center;">Need help ?</h4>
+                      <ul>
+                       <li> <a href="#"> FAQ</a> </li>
+                       <li> <a href="#">  Contact Us</a> </li>
+                     
+    
+
+
+                </ul>
+                
+            </div>
+            </div>
+            
+            
+             <div class="col-md-4">
+                <div class="footer2">
+                <h4> Subscribe</h4>
+
+                    <input type="text" name="name" value="your email address" style="height:35px;" /> <button class="btn btn-default" style="background-color:#171313;color:#ffffff"> Subscribe <span class="glyphicon glyphicon-search " style="color:white"></span></button>
+               <p>  Register now to get updates on promotions and coupons. Or </p> <a href="#"> Download App</a>
+
+            </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row" style="margin-top:10px;">
+            
+            <div class="col-md-12" >
+                <div class="last">
+
+                    <p>
+                        Mobiles: HTC Mobiles /
+ iPhones /
+ Gionee Mobiles /
+ LG Mobiles /
+ Karbonn Mobiles /
+ Vivo Mobiles /
+ Intex Mobiles /
+ Micromax Mobiles /
+ Asus Mobiles /
+ Samsung Mobiles /
+ Lenovo Mobiles /
+ Oppo Mobiles /
+ Xolo Mobiles 
+   
+Tablets: Apple iPads /
+ Samsung Tablets /
+ Windows Tablets /
+ Calling Tablets /
+ Micromax Tablets /
+ Lenovo Tablets /
+ Asus Tablets /
+ iBall Tablets /
+ Swipe Tablets /
+ Datawind Tablets 
+   
+TVs, Audio & Video: Televisions /
+ LED TVs /
+ Smart Televisions /
+ Speakers /
+ Headphones /
+ Earphones /
+ Samsung Televisions /
+ Micromax Televisions /
+ LG Televisions /
+ Home Theatre Systems 
+   
+Mobiles Accessories: Mobile Covers /
+ Power Banks /
+ Samsung Power Banks /
+ Ambrane Power Banks /
+ Intex Power Banks /
+ Sony Power Banks /
+ Lenovo Power Banks /
+ PNY Power Banks /
+ Jawbone Fitness Bands 
+   
+Computers: Lenovo Laptops /
+ Acer Laptops /
+ Apple Macbooks /
+ Notebook /
+ Laptops /
+ External Hard Disks /
+ Dell Laptops /
+ HP Laptops /
+ Pen Drives 
+   
+Camera: DSLR Cameras /
+ Canon Cameras /
+ Nikon Coolpix /
+ Nikon DSLR Cameras /
+ Sony Cameras /
+ Digital Cameras /
+ Panasonic Cameras /
+ Samsung Cameras 
+   
+Watches: Men's Watches /
+ Women's Watches /
+ Casio Watches /
+ Titan Watches /
+ Fastrack Watches /
+ Fossil watches /
+ Casio Edifice /
+ Tissot Watches 
+   
+Fashion: Bags /
+ Wildcraft /
+ American Tourister /
+ Skybags /
+ Fastrack Bags /
+ Shoes /
+ Boots /
+ Kurta /
+ Raymond /
+ Ray-Ban 
+   
+Fashion: Sarees /
+ Silk sarees /
+ Salwar Suits /
+ Lehengas /
+ Biba /
+ Jewellery /
+ Rings /
+ Earrings /
+ Diamond Rings /
+ Loose Diamond 
+   
+Home & Kitchen: Home Decor /
+ Paintings /
+ Clocks /
+ Flasks & Thermos /
+ Photo Frames /
+ Tupperware Kitchenware /
+ Hawkins Kitchenware /
+ Milton Kitchenware 
+   
+Books: Competitive Exams /
+ GMAT /
+ Literature & Fiction /
+ Fiction /
+ Non Fiction /
+ Harry Potter /
+ Engineering Books /
+ School Books 
+   
+Appliances: Air Conditioners /
+ Air Coolers /
+ Refrigerators /
+ Fans /
+ Washing Machines /
+ Inverters & Stabilizers /
+ Mircowaves /
+ Irons /
+ Trimmers /
+ Hair Dryers /
+ Shavers /
+ Vacuum Cleaners /
+ Air Purifiers /
+ CCTV Cameras 
+   
+Home Furnishing: Bed Linen /
+ Bed Sheets /
+ Bath Linen /
+ Mattresses /
+ Curtains /
+ Cushion Covers /
+ Pillows /
+ Blankets /
+ Carpets /
+ Kids Bedding /
+ Sleepwell Mattress /
+ Kurlon Mattress 
+   
+Furniture: Living Room /
+ Bedroom Furniture /
+ Chairs /
+ Dining Sets /
+ Dining Chairs /
+ Bean Bags /
+ Tables and Desks /
+ Shoe Storage /
+ Storage Cabinets 
+   
+Toys & Games: Soft Toys /
+ Dolls /
+ Musical Toys /
+ Electric Scooters /
+ Skate Scooters /
+ Barbie Dolls /
+ Barbie Games /
+ Action Figures 
+   
+Mobile Recharge: Airtel Recharge /
+ Aircel Recharge /
+ Vodafone Recharge /
+ Idea Recharge /
+ BSNL Recharge /
+ Tata Docomo Recharge /
+ Telenor Recharge 
+   
+Mobile Bill Payment: Airtel Bill Payment /
+ Aircel Bill Payment /
+ Vodafone Bill Payment /
+ Tata Docomo Bill Payment /
+ Idea Bill Payment /
+ BSNL Bill Payment 
+   
+Data Card Recharge: Reliance Netconnect /
+ Airtel Data Card Recharge /
+ MTS Data Card Recharge /
+ Tata Photon Plus Data Card Recharge /
+ Idea Data Card Recharge /
+ Docomo Data Card Recharge 
+   
+Festive Offers: Valentines Day Offers /
+ Holi Offers 
+  
+
+
+                    </p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            
+            <div class="col-md-12">
+                  <marquee> <h2> About Snapdeal</h2> </marquee>
+                <div class="last">
+             
+                <hr />
+                <p>
+                  
+
+About Snapdeal – India’s Ultimate Online Shopping Destination Snapdeal’s vision is to create India’s most reliable and frictionless commerce ecosystem that creates life-changing experiences for buyers and sellers. In February 2010, Kunal Bahl along with Rohit Bansal, started Snapdeal.com - India’s largest online marketplace, with the widest assortment of 35 million plus products across 800 plus diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 300,000 sellers, Snapdeal is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Snapdeal has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others. Online Shopping – A Boon The trend of online shopping is becoming a household name and so is Snapdeal. Snapdeal is the preferred choice of hundreds of thousands of online shoppers given its mammoth assortment of 15 million+ products, quick delivery even to the remotest corners of the country, and daily deals, discounts & offers to make products available at slashed down prices to our valuable customers. Get Started! Shop Online Today at Snapdeal If you have been missing out on all the fun of online shopping thinking it requires one to be a technology aficionado then we have good news for you. Shopping online particularly at Snapdeal is a child’s play; all you need is a mobile phone or laptop or tablet with Internet connection to get started. Simply log into Snapdeal.com and browse through the wide assortment of products across categories. Once you have zeroed in on your favourite products, simply place the order by filling in the details; the products will be delivered right at your doorstep. Fulfil Your Entrepreneurial Dreams! Sell Today at Snapdeal Thanks to easy-to-understand, flexible policies and SD Advisors to help sellers at each step, anyone from a manufacturer to wholesaler to retailer can sell on Snapdeal. Begin your entrepreneurial journey with Snapdeal as a seller by filling a simple registration form here. Once the registration process is done, you can start selling your products to the entire country by sitting at your home or office. Doesn't it sound thrilling? Of course, it is and the excitement will build up with every order you receive! Start selling at Snapdeal today and see your business reach staggering heights. Shop on the Go – Install Snapdeal App Today! You can shop for your favourite products at Snapdeal even on the go using Snapdeal App. Available for both Android and Apple users, the app can be downloaded from Google Play Store and Apple App Store respectively. The app is quick, user-friendly, and enables shoppers buy products with a breeze. What's more, get timely notifications on your phone or tablet so that you don't miss amazing deals and offers. Download the app right now and experience how fun it is to shop on your mobile!
+                </p>
+
+            </div>
+
+                </div>
+       
+             <hr />
+
+            <hr />
+            <div class="col-md-12">
+            <p style="color:#110df2; font-size:15px; font-weight:bolder" > copyright &copy; 2017 ♥ Suhail group Private limited ♥. All Rights Reserved </p>
+           </div>
+            </div>
+
+   
+    </form>
+</body>
+</html>

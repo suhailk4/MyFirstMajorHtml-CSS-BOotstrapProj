@@ -1,0 +1,36 @@
+﻿body {
+    background-color:#ffffff;
+  
+}
+#sid1 ul {
+    font-family:Tahoma;
+    font-weight:bold;
+    font-size:14px;
+}
+#sid1 ul  li{
+    list-style-type:none;
+    
+}
+   
+#sid1 ul  li a{
+    text-decoration:none;
+    color:#000000;
+
+
+}
+
+#sid1 ul  li a:hover{
+ background-color:#ffffff;
+ border-left-style:solid ;
+
+}
+
+
+.image:hover{
+
+   height:270px;
+   width:300px;
+   opacity:inherit;
+   box-shadow:4px 4px 18px #808080;
+}
+
